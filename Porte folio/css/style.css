@@ -1,0 +1,273 @@
+/* Header Section */
+
+.header{
+    background: url("../img/portefolio.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 0 0 400px 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header .navbar .menu{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.header .navbar .menu .ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header .navbar .menu ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.header .navbar ul li a{
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.header .home{
+    text-align: center;
+    color: #FFF;
+    margin-top: 235px;
+}
+
+.header .home .h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+/* About me section */
+
+.about_me{
+    padding: 120px 0 0 0;
+}
+
+.about_me .section_title{
+    text-align: center;
+}
+
+.about_me .section_title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.about_me .section_title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #777777;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.about_me .about_me_boxs .profil{
+    float: left;
+    border-radius: 50px;
+    padding: 0 100px 0 200px;
+}
+
+.about_me .about_me_boxs .me{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    text-align: justify;
+    padding: 50px 200px 50px 0;
+}
+
+.about_me .download{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.about_me .download a{
+    background-color: #fed136;
+    color: #FFF;
+    padding: 20px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* Skills Section */
+
+.skills{
+    padding: 120px 0 0 0;
+}
+
+.skills .section_title{
+    text-align: center;
+}
+
+.skills .section_title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.skills .section_title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #777777;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.skills .skills_boxs .sk{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.skills .skills_boxs .sk2{
+    width: 15%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 0 0 270px;
+}
+
+.skills .skills_boxs .sk i{
+    font-size: 40px;
+    color: #fed136;
+    border: 3px solid #fed136;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    line-height: 70px;
+}
+
+.skills .skills_boxs .sk2 i{
+    font-size: 40px;
+    color: #fed136;
+    border: 3px solid #fed136;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    line-height: 70px;
+}
+
+.skills .skills_boxs .sk h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+}
+
+.skills .skills_boxs .sk2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+}
+
+/* Veille Section */
+
+.veille{
+    padding: 120px 0 0 0;
+}
+
+.veille .box{
+    text-align: center;
+    background-color: #fed136;
+    color: #FFF;
+    padding: 20px 50px;
+    border-radius: 3px;
+}
+
+.veille .box h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.veille .box p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    padding: 0 120px;
+}
+
+.veille .box .download{
+    padding: 60px 0;
+}
+
+.veille .box .download a{
+    background-color: #FFF;
+    color: #fed136;
+    padding: 20px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/* Contact Section */
+
+.contact{
+    padding: 120px 0;
+}
+
+.contact .section_title{
+    text-align: center;
+}
+
+.contact .section_title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact .section_title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #777777;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.contact .contact_boxs .con{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 1px;
+}
+
+.contact .contact_boxs .con i{
+    font-size: 40px;
+    color: #fed136;
+    border: 3px solid #fed136;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    line-height: 70px;
+}
+
+.contact .contact_boxs .con h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+}
+
+.contact .contact_boxs .con p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #777777;
+}
