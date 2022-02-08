@@ -216,6 +216,60 @@
     text-decoration: none;
 }
 
+/*Project section */
+
+.project{
+    padding: 120px 0 0 0;
+}
+
+.project .section_title{
+    text-align: center;
+}
+
+.project .section_title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.project .section_title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #777777;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.project .project_boxs .pro{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.project .project_boxs .pro a{
+    background-color: #fed136;
+    color: #FFF;
+    padding: 20px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.project .project_boxs .pro h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+}
+
+.project .project_boxs .pro p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 50px;
+}
+
 /* Contact Section */
 
 .contact{
