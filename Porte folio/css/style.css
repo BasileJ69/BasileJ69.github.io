@@ -177,6 +177,21 @@
     color: #222222;
 }
 
+.skills .skills_boxs .download{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.skills .skills_boxs .download a{
+    background-color: #fed136;
+    color: #FFF;
+    padding: 20px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
 /* Veille Section */
 
 .veille{
@@ -264,6 +279,60 @@
 }
 
 .project .project_boxs .pro p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 50px;
+}
+
+/*Project section */
+
+.stage{
+    padding: 120px 0 0 0;
+}
+
+.stage .section_title{
+    text-align: center;
+}
+
+.stage .section_title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.stage .section_title p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #777777;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.stage .stage_boxs .rapport{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.stage .stage_boxs .rapport a{
+    background-color: #fed136;
+    color: #FFF;
+    padding: 20px 50px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.stage .stage_boxs .rapport h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #222222;
+}
+
+.stage .stage_boxs .rapport p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     color: #777777;
